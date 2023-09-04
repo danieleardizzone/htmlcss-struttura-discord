@@ -1,0 +1,159 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img{
+    max-width: 100%;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+.column{
+    display: flex;
+}
+
+.header{
+    padding: 10px;
+    min-height: 50px;
+}
+
+.logo, .login{
+    min-width: 200px;
+}
+
+.login{
+    justify-content: flex-end;
+}
+
+.link{
+    min-width: 600px;
+    justify-content: center;
+}
+
+.box_first-section{
+    min-width: 700px;
+    min-height: 400px;
+}
+
+.first-box_second-section,
+.second-box_third-section,
+.first-box_fourth-section{
+    min-width: 600px;
+    min-height: 400px;
+}
+
+.second-box_second-section,
+.first-box_third-section,
+.second-box_fourth-section{
+    min-width: 400px;
+    min-height: 400px;
+}
+
+.box_fifth-section{
+    min-width: 1000px;
+    min-height: 600px;
+}
+
+footer{
+    background-color: #23272A;
+}
+
+.first-box_first-section_footer{
+    min-width: 280px;
+    min-height: 400px;
+}
+
+.second-box_first-section_footer{
+    min-width: 180px;
+    min-height: 400px;
+}
+
+.big-box_second-section_footer{
+    min-width: 1000px;
+    min-height: 70px;
+}
+
+.row .big-box_second-section_footer{
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box_second-section_footer{
+    padding: 6px;
+}
+
+/*debug*/
+
+.debug .row{
+    padding: 20px;
+    max-width: 100%;
+}
+
+.debug .column{
+    border: 3px dashed black;
+}
+
+.debug .header{
+    background-color: #ADD8E6;
+}
+
+.debug .logo, .debug .link, .debug .login{
+    padding: 10px;
+    background-color: #DAA520;
+}
+
+.debug .first-section{
+    background-color: #00008B;
+}
+
+.debug .box_first-section{
+    background-color: #EE82EE;
+}
+
+.debug .first-box_second-section,
+.debug .second-box_third-section,
+.debug .first-box_fourth-section{
+    background-color: #1E90FF;
+}
+
+.debug .second-box_second-section,
+.debug .first-box_third-section,
+.debug .second-box_fourth-section{
+    background-color: #FFC0CB;
+}
+
+.debug .third-section,
+.debug .fifth-section{
+    background-color: #D3D3D3;
+}
+
+.debug .box_fifth-section{
+    background-color: #228B22;
+}
+
+.debug .first-box_first-section_footer{
+    background-color: #F08080;
+}
+
+.debug .second-box_first-section_footer{
+    background-color: #20B2AA;
+    border-color: white;
+}
+
+.debug .big-box_second-section_footer{
+    background-color: #7FFFD4;
+    border: none;
+}
+
+.debug .row .big-box_second-section_footer{
+    padding: 0px;
+}
+
+.debug .box_second-section_footer{
+    background-color: #FFB6C1;
+}
